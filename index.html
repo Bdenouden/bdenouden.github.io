@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bram den Ouden</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="libs/require.js"></script>
+    <script type="module" src="script.js" defer></script>
+</head>
+
+<body>
+    <div id="header" class="header">
+        <img src="me.jpg" alt="A picture of me" class="img-me" id="img-me">
+    </div>
+    <div class="intro">
+        <h3>
+            Hi! My name is Bram den Ouden and I'm currently doing my masters in the field of MicroElectronics at the TU
+            Delft in the Netherlands.
+        </h3>
+    </div>
+    <div class="spacer"></div>
+    <div class="content" style="height: 10000px;">
+
+        <div id="education" class="topic">
+            <h2 class="title">Education</h2>
+            <hr>
+            <table id="edu-table">
+                <tr>
+                    <td class="period"> 2019 - present</td>
+                    <td class="item">
+                        <p class="location">Delft University of Technology</p>
+                        <p class="activity">MSc. MicroElectronics</p>
+                        <p class="extra"></p>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="period"> 2015 - 2019</td>
+                    <td class="item">
+                        <p class="location">Delft University of Technology</p>
+                        <p class="activity">BSc. Electrical Engineering</p>
+                        <p class="extra">
+                            <span>Graduation project: Fall detection subgroup Hardware</span><br>
+                            <span>Minor: Med-Tech Based Entrepreneurship</span><br>
+                            <span>Committees: Klushok -, Homepage -, Recruitment days -, Dies -, Pianotap -, Bar -
+                                and Winter Activity Committee </span>
+                        </p>
+
+                    </td>
+                </tr>
+                <template id="edu-template">
+                    <tr>
+                        <td class="period"> {{ period }}</td>
+                        <td class="item">
+                            <p class="location">{{ location }}</p>
+                            <p class="activity">{{ activity }}</p>
+                            <p class="extra">
+                                {{ extra }}
+                            </p>
+
+                        </td>
+                    </tr>
+                </template>
+
+
+            </table>
+
+        </div>
+        <div id="experience" class="topic">
+
+        </div>
+    </div>
+</body>
+
+</html>

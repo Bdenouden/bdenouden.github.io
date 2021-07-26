@@ -1,0 +1,37 @@
+{
+    "Education": [
+        {
+            "period": "2019 - present",
+            "item": {
+                "location": "Delft University of Technology",
+                "activity": "MSc. MicroElectronics",
+                "extra": {
+                    "Extracurricular activities": "Student member of the Board of Studies"
+                }
+            }
+        },
+        {
+            "period": "2015 - 2019",
+            "item": {
+                "location": "Delft University of Technology",
+                "activity": "BSc. Electrical Engineering",
+                "extra": {
+                    "Graduation project": "Fall detection subgroup Hardware",
+                    "Minor": "Med-Tech Based Entrepreneurship",
+                    "Committees": "Klushok-, Homepage-, Recruitment days-, Dies-, Pianotap-, Bar- and Winter Activity Committee"
+                }
+            }
+        },
+        {
+            "period": "2008 - 2015",
+            "item":{
+                "location": "Stedelijk Gymnasium Leiden",
+                "activity": "Gymnasium (VWO)",
+                "extra":{
+                    "profile": "Nature & Health and Nature & Technology",
+                    "Extracurricular activities": "Organizing 4 Model United Nations of which one as conference manager, a seven-year involvement with technical support during theatre shows and a year of being a board member at the student association."
+                }
+            }
+        }
+    ]
+}
