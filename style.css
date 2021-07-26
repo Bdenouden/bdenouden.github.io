@@ -21,17 +21,9 @@ body{
     left: 50%;
 }
 
-.header{
-    height: 500px;
-    width: 100vw;
-    position: fixed;
-    text-align: center;
-    /* z-index: -1; */
-}
-
 .img-me {
     width: 40%;
-    position: absolute;
+    position: fixed;
     max-width: 500px;
     min-width: 250px;
     border:darkgreen 4px;
@@ -72,13 +64,7 @@ body{
     vertical-align: middle;
 }
 
-/* .content{
-    border: darkred 1px solid;
-}
-.topic{
-    height: 500px;
-    border: darkslategrey 1px solid;
-} */
+
 
 table{
     margin-left: 25%;

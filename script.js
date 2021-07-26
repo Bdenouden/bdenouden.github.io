@@ -67,10 +67,8 @@ window.onscroll = function() { scrollFunction() };
 function scrollFunction() {
     if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
         document.getElementById("img-me").classList.add("img-round", "mini-me");
-        document.getElementById("header").classList.add("align-left");
     } else if (document.body.scrollTop < 30 || document.documentElement.scrollTop < 30) {
         document.getElementById("img-me").classList.remove("img-round", "mini-me");
-        document.getElementById("header").classList.remove("align-left");
     } else {
 
     }
