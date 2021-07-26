@@ -24,14 +24,49 @@
         },
         {
             "period": "2008 - 2015",
-            "info":{
+            "info": {
                 "location": "Stedelijk Gymnasium Leiden",
                 "activity": "Gymnasium (VWO)",
-                "extra":{
+                "extra": {
                     "profile": "Nature & Health and Nature & Technology",
                     "Extracurricular activities": "Organizing 4 Model United Nations of which one as conference manager, a seven-year involvement with technical support during theatre shows and a year of being a board member at the student association."
                 }
             }
+        }
+    ],
+    "experience": [
+        {
+            "period": "2019-2020",
+            "info": {
+                "activity": "Educational PCB design",
+                "description": "Design and assembly of printed circuit boards for practical assessments of the second-year students"
+            }
+        },
+        {
+            "period": "2019",
+            "info": {
+                "activity": "Human Power Team (part-time)",
+                "description": "Testimonial available upon request"
+            }
+        },
+        {
+            "period": "2016-2018",
+            "info": {
+                "activity": "Hedon Electronic Developments",
+                "description": "Testimonial and reference available upon request"
+            }
+        },
+        {
+            "period": "2016-2017",
+            "info": {
+                "activity": "Mentor first year students"
+            }
+        }
+    ],
+    "interest": [
+        {
+            "col1": "Apart from the practical assignments within my study, I enjoy doing projects at home. Examples are creating my own home automation system and product prototyping and development. During these projects I like to fully develop a solution including designing and 3d printing, laser cutting or CNC milling enclosures. As of recently this also includes building mobile apps and websites.",
+            "col2": "My non-electronics-related hobbies include bouldering and rock climbing and participating in LCKV (a camping association from Leiden). I’ve also spent a year volunteering as first aid support at events via the Dutch Red Cross and help organize the annual first year's weekend as part of the safety committee."
         }
     ]
 }

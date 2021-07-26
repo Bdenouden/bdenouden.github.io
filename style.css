@@ -82,9 +82,17 @@ body{
 
 table{
     margin-left: 25%;
-    width: 80%;
+    width: 75%;
 }
 table td{
     text-align: left;
+    padding-bottom: 10px;
 }
+table .period{
+    width: 20%;
+}
+table p{
+    margin: 0;
+}
+
 

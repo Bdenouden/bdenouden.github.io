@@ -21,28 +21,50 @@
         </h3>
     </div>
     <div class="spacer"></div>
-    <div class="content" style="height: 10000px;">
-
+    <div class="content">
         <div id="education" class="topic">
             <h2 class="title">Education</h2>
             <hr>
             <table id="education-table">
                 <template id="education-template">
                     <tr>
-                        <td class="period"> {{ period }}</td>
+                        <td class="period"></td>
                         <td class="item">
-                            <p class="location">{{ location }}</p>
-                            <p class="activity">{{ activity }}</p>
-                            <p class="extra">{{ extra }}</p>
-
+                            <p class="location"></p>
+                            <b><p class="activity"></p></b>
+                            <p class="extra"></p>
                         </td>
                     </tr>
                 </template>
             </table>
-
         </div>
         <div id="experience" class="topic">
-
+            <h2 class="title">Work experience</h2>
+            <hr>
+            <table id="experience-table">
+                <template id="experience-template">
+                    <tr>
+                        <td class="period"></td>
+                        <td class="item">
+                            <p class="activity"></p>
+                            <p class="description"></p>
+                        </td>
+                    </tr>
+                </template>
+            </table>
+        </div>
+        <div id="interest" class="topic">
+            <h2 class="title">Interests and Hobbies</h2>
+            <hr>
+            <table id="interest-table">
+                <template id="interest-template">
+                    <tr>
+                        <td class="col1"></td>
+                        <td class="col2">
+                        </td>
+                    </tr>
+                </template>
+            </table>
         </div>
     </div>
 </body>
