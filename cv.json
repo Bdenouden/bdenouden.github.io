@@ -1,30 +1,30 @@
 {
-    "Education": [
+    "education": [
         {
             "period": "2019 - present",
-            "item": {
+            "info": {
                 "location": "Delft University of Technology",
                 "activity": "MSc. MicroElectronics",
                 "extra": {
-                    "Extracurricular activities": "Student member of the Board of Studies"
+                    "extracurricular activities": "Student member of the Board of Studies"
                 }
             }
         },
         {
             "period": "2015 - 2019",
-            "item": {
+            "info": {
                 "location": "Delft University of Technology",
                 "activity": "BSc. Electrical Engineering",
                 "extra": {
-                    "Graduation project": "Fall detection subgroup Hardware",
-                    "Minor": "Med-Tech Based Entrepreneurship",
-                    "Committees": "Klushok-, Homepage-, Recruitment days-, Dies-, Pianotap-, Bar- and Winter Activity Committee"
+                    "project": "Fall detection subgroup Hardware",
+                    "minor": "Med-Tech Based Entrepreneurship",
+                    "committees": "Klushok-, Homepage-, Recruitment days-, Dies-, Pianotap-, Bar- and Winter Activity Committee"
                 }
             }
         },
         {
             "period": "2008 - 2015",
-            "item":{
+            "info":{
                 "location": "Stedelijk Gymnasium Leiden",
                 "activity": "Gymnasium (VWO)",
                 "extra":{

@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bram den Ouden</title>
     <link rel="stylesheet" href="style.css">
-    <script src="libs/require.js"></script>
     <script type="module" src="script.js" defer></script>
 </head>
 
@@ -27,45 +26,18 @@
         <div id="education" class="topic">
             <h2 class="title">Education</h2>
             <hr>
-            <table id="edu-table">
-                <tr>
-                    <td class="period"> 2019 - present</td>
-                    <td class="item">
-                        <p class="location">Delft University of Technology</p>
-                        <p class="activity">MSc. MicroElectronics</p>
-                        <p class="extra"></p>
-
-                    </td>
-                </tr>
-                <tr>
-                    <td class="period"> 2015 - 2019</td>
-                    <td class="item">
-                        <p class="location">Delft University of Technology</p>
-                        <p class="activity">BSc. Electrical Engineering</p>
-                        <p class="extra">
-                            <span>Graduation project: Fall detection subgroup Hardware</span><br>
-                            <span>Minor: Med-Tech Based Entrepreneurship</span><br>
-                            <span>Committees: Klushok -, Homepage -, Recruitment days -, Dies -, Pianotap -, Bar -
-                                and Winter Activity Committee </span>
-                        </p>
-
-                    </td>
-                </tr>
-                <template id="edu-template">
+            <table id="education-table">
+                <template id="education-template">
                     <tr>
                         <td class="period"> {{ period }}</td>
                         <td class="item">
                             <p class="location">{{ location }}</p>
                             <p class="activity">{{ activity }}</p>
-                            <p class="extra">
-                                {{ extra }}
-                            </p>
+                            <p class="extra">{{ extra }}</p>
 
                         </td>
                     </tr>
                 </template>
-
-
             </table>
 
         </div>
