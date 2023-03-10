@@ -1,12 +1,22 @@
 {
     "education": [
         {
-            "period": "2019 - present",
+            "period": "2022 - Present",
+            "info": {
+                "location": "Leiden University Medical Center & Delft University of Technology",
+                "activity": "PhD Candidate Experimental Cardiology",
+                "extra": {
+                    "":""
+                }
+            }
+        },
+        {
+            "period": "2019 - 2022",
             "info": {
                 "location": "Delft University of Technology",
                 "activity": "MSc. MicroElectronics",
                 "extra": {
-                    "extracurricular activities": "Student member of the Board of Studies"
+                    "extracurricular activities": "Extracurricular activities: Student member of the Board of Studies Graduation project: Design and characterization of an implantable system for shock free cardiac rhythm control. Defended on 09-09-2022."
                 }
             }
         },
